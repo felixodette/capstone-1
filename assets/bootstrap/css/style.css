@@ -30,3 +30,39 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+
+#card-img {
+  float: left;
+  height: 190px;
+  margin-right: 12px;
+}
+
+#card-rows {
+  margin-bottom: 12px;
+}
+
+#wheels-event {
+  /*padding-top: 100px;*/
+  height: 245px;
+  /*margin-right: 5px;*/
+  color: white;
+  vertical-align: center;
+  overflow: hidden;
+  background: #C04848;  /* fallback for old browsers */
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../../img/thumbnails/gallery_01_11_thumb.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../../img/thumbnails/gallery_01_11_thumb.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#charity-run {
+  height: 245px;
+  color: white;
+  vertical-align: center;
+  overflow: hidden;
+  background: #C04848;  /* fallback for old browsers */
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../../img/thumbnails/gallery_01_10_thumb.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../../img/thumbnails/gallery_01_10_thumb.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
