@@ -1,0 +1,32 @@
+.subaru-blue {
+  background-color: #0e4bef;
+}
+
+.text-subaru-blue {
+  color: #0e4bef;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.header-section {
+  background-image:url('../../img/header.jpg');
+  background-size:cover;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.5);
+}
+
+.header-transparent {
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  /*color: transparent;*/
+  background-image: url("../../img/header.jpg");
+}
+
+.text-clip {
+  background-image: url('../../img/header.jpg');
+  background-size: cover;
+  /*background-clip: text;*/
+  -webkit-background-clip: text;
+  color: transparent;
+}
