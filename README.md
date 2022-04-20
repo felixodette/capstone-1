@@ -13,6 +13,10 @@ Built With
 
 [Live Demo Link]( https://felixodette.github.io/capstone-1/)
 
+### Video Presentation
+
+[Video](https://www.loom.com/share/f36fbb73cafb4c95a2f4f64a9dc088e3)
+
 ## Project Requirements
 The following design guidelines should be followed:
 
