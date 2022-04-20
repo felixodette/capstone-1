@@ -2,18 +2,14 @@
 In this capstone project what I'm going to build is based on an online website for a car owners club. Some design guidelines have been provided to create the website. 
 
 Built With
-* Major languages
-* Frameworks
-* Technologies used
+* HTML
+* CSS
+* Bootstrap
+* Javascript
 
-Live Demo (if available)
-Live Demo Link
+### Live Demo
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
-To get a local copy up and running follow these simple example steps.
-
-You should personalize the content of your page. Choose a topic that is different than the one in the original design.
+[Live Demo Link]( https://felixodette.github.io/capstone-1/)
 
 ## Project Requirements
 The following design guidelines should be followed:
@@ -43,35 +39,23 @@ The following design guidelines should be followed:
       - You should use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.
       - Original design idea by [Cindy Shin in behance](https://www.behance.net/adagio07).
 
-Authors
-👤 Author1
+### Authors
+👤 Felix Odete
 * GitHub: @felixodette
 * Twitter: @Odette3000
 * LinkedIn: [Felix Odete](https://linkedin.com/in/felixodete)
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page.
 
-Show your support
+### Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+### Acknowledgments
 * Hat tip to anyone whose code was used
 * Inspiration:
   * For the design: [Cindy Shin](https://www.behance.net/adagio07)
 
-📝 License
+### 📝 License
 This project is MIT licensed.
-
-* Page titles
-  * Home
-  * About
-* Image text alternatives** (<img alt="alt text">)
-* Text headings
-* Color contrast
-* Resize
-* Interaction
-* Moving content
-* Multimedia
-* The basic structure of the page
