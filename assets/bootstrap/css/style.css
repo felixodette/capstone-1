@@ -63,16 +63,16 @@
 }
 
 #info-box {
-  color: rgb(21,15,15);
-  background: #ffffff;
-  box-shadow: 1px 0px;
+  color: rgb(21, 15, 15);
+  background: #fff;
+  box-shadow: 1px 0;
   font-size: 12.4px;
   text-align: center;
   border-style: none;
 }
 
 #contact-statement {
-  border-width: 0px;
+  border-width: 0;
 }
 
 #cc {
