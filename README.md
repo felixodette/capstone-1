@@ -1,4 +1,6 @@
 # HTML/CSS & JavaScript capstone project - Car Owners Club
+![Desktop View](desktop%20screen%20shot.png)
+![Mobile View](Mobile%20screen%20shot.png)
 In this capstone project what I'm going to build is based on an online website for a car owners club. Some design guidelines have been provided to create the website. 
 
 Built With
@@ -56,6 +58,7 @@ Give a ⭐️ if you like this project!
 * Hat tip to anyone whose code was used
 * Inspiration:
   * For the design: [Cindy Shin](https://www.behance.net/adagio07)
+  * Images: [Subaru](https://www.subaru.com/guides/wrx/my18/)
 
 ### 📝 License
 This project is MIT licensed.
