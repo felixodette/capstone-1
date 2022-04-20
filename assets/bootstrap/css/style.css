@@ -45,8 +45,8 @@
   gap: 12px;
   color: white;
   overflow: hidden;
-  background-size: cover;
   background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(14, 75, 239, 0.8)), url("../../img/thumbnails/gallery_01_11_thumb.jpg") no-repeat;
+  background-size: cover;
 }
 
 #charity-run {
@@ -54,8 +54,8 @@
   color: white;
   overflow: hidden;
   text-align: center;
-  background-size: cover;
   background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(14, 75, 239, 0.8)), url("../../img/thumbnails/gallery_01_10_thumb.jpg") no-repeat;
+  background-size: cover;
 }
 
 #info-box {
