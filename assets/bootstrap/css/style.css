@@ -11,22 +11,20 @@
 }
 
 .header-section {
-  background-image:url('../../img/header.jpg');
-  background-size:cover;
-  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.5);
+  background-image: url('../../img/header.jpg');
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.5);
 }
 
 .header-transparent {
   background-clip: content-box;
   -webkit-background-clip: text;
-  /*color: transparent;*/
   background-image: url("../../img/header.jpg");
 }
 
 .text-clip {
   background-image: url('../../img/header.jpg');
   background-size: cover;
-  /*background-clip: text;*/
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -42,15 +40,13 @@
 }
 
 #wheels-event {
-  /*padding-top: 100px;*/
+  text-align: center;
   height: 245px;
-  /*margin-right: 5px;*/
+  gap: 12px;
   color: white;
-  vertical-align: center;
   overflow: hidden;
-  background: #C04848;  /* fallback for old browsers */
-  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../../img/thumbnails/gallery_01_11_thumb.jpg");  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../../img/thumbnails/gallery_01_11_thumb.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #c04848;
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(14, 75, 239, 0.8)), url("../../img/thumbnails/gallery_01_11_thumb.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -58,11 +54,35 @@
 #charity-run {
   height: 245px;
   color: white;
-  vertical-align: center;
   overflow: hidden;
-  background: #C04848;  /* fallback for old browsers */
-  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../../img/thumbnails/gallery_01_10_thumb.jpg");  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("../../img/thumbnails/gallery_01_10_thumb.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #c04848;
+  text-align: center;
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(14, 75, 239, 0.8)), url("../../img/thumbnails/gallery_01_10_thumb.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#info-box {
+  color: rgb(21,15,15);
+  background: #ffffff;
+  box-shadow: 1px 0px;
+  font-size: 12.4px;
+  text-align: center;
+  border-style: none;"
+}
+
+#contact-statement {
+  border-width: 0px;
+}
+
+#cc {
+  width: 250px;
+}
+
+#cc1 {
+  width: 200px;
+}
+
+#copyright {
+  width: 660px;
 }
