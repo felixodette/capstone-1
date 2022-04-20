@@ -45,21 +45,17 @@
   gap: 12px;
   color: white;
   overflow: hidden;
-  background: #c04848;
-  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(14, 75, 239, 0.8)), url("../../img/thumbnails/gallery_01_11_thumb.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(14, 75, 239, 0.8)), url("../../img/thumbnails/gallery_01_11_thumb.jpg") no-repeat;
 }
 
 #charity-run {
   height: 245px;
   color: white;
   overflow: hidden;
-  background: #c04848;
   text-align: center;
-  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(14, 75, 239, 0.8)), url("../../img/thumbnails/gallery_01_10_thumb.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(14, 75, 239, 0.8)), url("../../img/thumbnails/gallery_01_10_thumb.jpg") no-repeat;
 }
 
 #info-box {
