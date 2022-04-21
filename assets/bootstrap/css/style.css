@@ -99,6 +99,11 @@ h1 {
   width: 660px;
 }
 
+#footer-text p,
+#about-footer-text p {
+  margin: 0;
+}
+
 #confidence-section p,
 .text-location {
   font-size: 10px;
@@ -213,7 +218,3 @@ footer {
   font-family: Lato, Roboto, sans-serif;
 }
 
-#about-footer-text p,
-footer-text p {
-  margin: 0;
-}
