@@ -181,3 +181,23 @@ footer img {
   z-index: 999;
 }
 
+#about-info {
+  background: rgba(255 255 255 / 40%);
+  padding: 10px 5px 10px 5px;
+  border-radius: 8px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../../img/header.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
