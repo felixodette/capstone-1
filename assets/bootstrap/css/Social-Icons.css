@@ -1,18 +1,10 @@
 .social-icons {
   height: 20px;
   color: white;
-  /*background-color: #fff;*/
   top: 0;
   text-align: top;
   font-family: Lato, Roboto, sans-serif;
-  /*padding: 70px 0;*/
 }
-
-/*@media (max-width:767px) {*/
-/*  .social-icons {*/
-/*    padding: 50px 0;*/
-/*  }*/
-/*}*/
 
 .social-icons i {
   font-size: 16px;
@@ -21,9 +13,8 @@
   margin: 0 10px;
   width: 30px;
   height: 30px;
-  /*border: 1px solid #c8ced7;*/
   text-align: center;
   border-radius: 50%;
-  /*line-height: 60px;*/
 }
+
 
