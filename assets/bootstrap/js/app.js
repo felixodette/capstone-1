@@ -52,7 +52,7 @@ function createCard(cardObject) {
               <div class="card-body">
                   <img id="card-img" src="${cardObject.image}" alt="${cardObject.alt}" />
                   <h4 class="card-title">${cardObject.title}</h4>
-                  <h6 class="text-muted card-subtitle mb-2">${cardObject.subtitle}</h6>
+                  <h6 class="text-muted card-subtitle mb-2 text-primary">${cardObject.subtitle}</h6>
                   <p class="card-text">${cardObject.text}</p>
               </div>
           </div>
@@ -62,7 +62,7 @@ function createCard(cardObject) {
               <div class="card-body">
               <img id="card-img" src="${cardObject.image1}" alt="${cardObject.alt1}" />
                   <h4 class="card-title">${cardObject.title1}</h4>
-                  <h6 class="text-muted card-subtitle mb-2">${cardObject.subtitle1}</h6>
+                  <h6 class="text-muted card-subtitle mb-2 text-primary">${cardObject.subtitle1}</h6>
                   <p class="card-text">${cardObject.text1}</p>
               </div>
           </div>

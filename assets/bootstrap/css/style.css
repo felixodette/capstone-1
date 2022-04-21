@@ -176,4 +176,8 @@ footer img {
   justify-content: center;
 }
 
+#socialSection {
+  background: black;
+  z-index: 999;
+}
 
