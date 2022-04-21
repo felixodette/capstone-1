@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@500&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+p {
+  font-family: Lato, Roboto, sans-serif;
+}
+
+nav img {
+  top: -100px;
+  width: 150px;
+}
+
+h1 {
+  font-family: Cocogoose, Roboto, sans-serif;
+}
+
 .subaru-blue {
   background-color: #0e4bef;
 }
@@ -82,3 +98,82 @@
 #copyright {
   width: 660px;
 }
+
+#confidence-section p,
+.text-location {
+  font-size: 10px;
+  font-family: Lato, Roboto, sans-serif;
+}
+
+#confidence-section {
+  gap: 2px;
+}
+
+.cg-font {
+  font-family: Cocogoose, Roboto, sans-serif;
+  font-weight: 400;
+}
+
+#confidence-section img {
+  height: 80px;
+}
+
+.card-background {
+  background: rgba(0 0 0 / 0.2);
+}
+
+#mainNav {
+  padding-top: 40px;
+}
+
+.btn-join {
+  border: 4px solid #ec5242;
+  border-radius: 2px;
+  height: 42px;
+}
+
+#logout {
+  padding-right: 20px;
+}
+
+footer {
+  height: 100px;
+  align-content: start;
+}
+
+.partner-item img {
+  width: 5rem;
+  margin: 0 2rem 3rem 2rem;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  opacity: 0.7;
+}
+
+.partner-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+footer img {
+  padding-top: 10px;
+  height: 50px;
+}
+
+.about-media {
+  display: inline-flex;
+  opacity: 0.5;
+  width: 30rem;
+}
+
+#drives {
+  display: inline-flex;
+  justify-content: center;
+}
+
+

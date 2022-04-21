@@ -8,6 +8,8 @@
     <title>Subaru Owners Club</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/Social-Icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -16,8 +18,22 @@
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="57">
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background: black">
+        <div class="container">
+            <div class="collapse navbar-collapse social-icons">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+                    <li class="nav-item"><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+                    <li class="nav-item"><a href="#"><i class="icon ion-social-instagram"></i></a></li>
+                    <li class="nav-item"><a href="#"><i class="icon ion-social-github"></i></a></li>
+                    <li class="nav-item" id="logout">Logout</li>
+                    <li class="nav-item">English</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container  text-subaru-blue"><a class="navbar-brand" href="#page-top">SUBARU OWNERS CLUB</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify" data-aos="fade"></i></button>
+        <div class="container"><a class="navbar-brand" href="#page-top"><img src="assets/img/logo/SUBARU.png" alt=""> OWNERS CLUB</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify" data-aos="fade"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
@@ -25,7 +41,7 @@
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Members</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
-            </div><button class="btn btn-primary subaru-blue" type="button">Join!</button>
+            </div><button class="btn btn-join" type="button">Join!</button>
         </div>
     </nav>
     <header class="text-center text-white d-flex masthead header-section">
@@ -37,155 +53,109 @@
                 </div>
             </div>
             <div class="col-lg-8 mx-auto text-align-left">
-                <p><span class="text-subaru-blue">Performance that demands respect.</span> Handling that demands the podium.</p>
-                <p class="text-faded mb-5">With its snarling, 305-horsepower turbocharged SUBARU BOXER engine, the WRX STI combines track-day talents with rally roots to create something truly electrifying. It's kept enthusiasts craving track days!</p><a class="btn btn-primary btn-xl subaru-blue" role="button" href="#services">Find Out More</a>
+                <p><span class="text-danger">Performance that demands respect.</span> Handling that demands the podium.</p>
+                <p class="text-faded mb-5">With its snarling, 305-horsepower turbocharged SUBARU BOXER engine, the WRX STI combines track-day talents with rally roots to create something truly electrifying. It's kept enthusiasts craving track days!</p>
+                <p class="text-secondary cg-font">2015.10.15(THU) ~ 16(FRI)</p>
+                <p class="text-location">@ Garden City Roof Top, Thika Road, Nairobi</p>
             </div>
         </div>
     </header>
-    <section id="about" class="subaru-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col offset-lg-8 text-center mx-auto">
-                    <h2 class="text-white section-heading">Why Join Us?</h2>
-                    <hr class="light my-4">
-                    <p class="text-faded mb-4">A car club is a community of automotive enthusiasts who share a common interest in a general or specific manufacturer of car. Some car clubs are broken down by an appreciation for a particular manufacturer or just a general type of car such as muscle cars or sports cars. Across the world, enthusiasts gather to share and discuss their favorite cars withers in a nearby vicinity. The clubs often host regular meetings and events that may discuss a particular topic or it may just be a show and shine, which is a great way to clean and show off your car!</p><a class="btn btn-light btn-xl" role="button" href="#services">Get Started!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="services">
+    <section id="services" class="bg-secondary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Confidence in Motion</h2>
-                    <hr class="my-4 subaru-blue">
+                    <h2 class="section-heading text-white">Confidence in Motion</h2>
+                    <hr class="my-4">
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5">
-                        <img src="assets/img/btn_performance_01.png" alt="Suspension icon" class="fa-4x text-primary mb-3 sr-icons" data-aos-duration="200" data-aos-once="true">
-<!--                        <i class="fa fa-diamond fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-once="true"></i>-->
-                        <h3 class="mb-3">Suspension</h3>
-                        <p class="text-muted mb-0">The WRX STI has a 4-wheel independent suspension with aluminium front lower control arms, plus double wishbone rear suspension.</p>
+            <div class="card-group bg-secondary text-center text-white" id="confidence-section">
+                <div class="card card-background"><img src="assets/img/icons/suspension.svg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Suspension</h4>
+                        <p class="card-text">The WRX STI has a 4-wheel independent suspension with aluminium front lower control arms, plus double wishbone rear suspension.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5">
-                        <img src="assets/img/btn_performance_01.png" alt="Piston icon" class="fa-4x text-primary mb-3 sr-icons">
-<!--                        <i class="fa fa-paper-plane fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200" data-aos-once="true"></i>-->
-                        <h3 class="mb-3">Engine</h3>
-                        <p class="text-muted mb-0">The EJ25 is battle-tested and race-proven. The 2.5-liter, turbocharged engine with 305 bhp &amp; 290 lb-ft of torque is certain to make you smile.</p>
+                <div class="card card-background"><img src="assets/img/icons/piston.svg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Engine</h4>
+                        <p class="card-text">The EJ25 is battle-tested and race-proven. The 2.5-liter, turbocharged engine with 305 bhp & 290 lb-ft of torque is certain to make you smile.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5">
-                        <img src="assets/img/btn_performance_03.png" alt="" class="fa-4x text-primary mb-3 sr-icons">
-<!--                        <i class="fa fa-newspaper-o fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="400" data-aos-once="true"></i>-->
-                        <h3 class="mb-3">Brakes</h3>
-                        <p class="text-muted mb-0">There's a reason why the name Brembo demands such respect. Case in point: the braking system of the STI.&nbsp; Powerful cross drilled &amp; ventilated.</p>
+                <div class="card card-background"><img src="assets/img/icons/brakes.svg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Brakes</h4>
+                        <p class="card-text">There's a reason why the name Brembo demands such respect. Case in point: the braking system of the STI.  Powerful cross drilled & ventilated.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <div class="mx-auto service-box mt-5">
-                        <img src="assets/img/btn_performance_04.png" alt="Transmission icon" class="fa-4x text-primary mb-3 sr-icons">
-<!--                        <i class="fa fa-heart fa-4x text-primary mb-3 sr-icons" data-aos="fade" data-aos-duration="200" data-aos-delay="600" data-aos-once="true"></i>-->
-                        <h3 class="mb-3">Transmission</h3>
-                        <p class="text-muted mb-0">The venerable 6-speed manual of the STi is a work of mechanical art. With impeccable street cred &amp; a bulletproof reputation, ultimate control.</p>
+                <div class="card card-background"><img src="assets/img/icons/transmission.svg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Transmission</h4>
+                        <p class="card-text">The venerable 6-speed manual of the STi is a work of mechanical art. With impeccable street cred & a bulletproof reputation, ultimate control.</p>
+                    </div>
+                </div>
+                <div class="card card-background"><img src="assets/img/icons/seat.svg" class="card-img-top w-100 d-block" />
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Technology</h4>
+                        <p class="card-text">With individual temperature settings that automatically adjust, drivers and front-seat passengers can customize their environment.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="portfolio" class="p-0">
-        <div class="container-fluid p-0">
-            <div class="row g-0 popup-gallery">
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/gallery_03_01_vi01_thumb.jpg"><img class="img-fluid" src="assets/img/fullsize/gallery_03_01_vi01_thumb.jpg" alt="WRX STI">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>WRX STI</span></div>
-                                <div class="project-name"><span>Project Boost</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/gallery_01_01.jpg"><img class="img-fluid" src="assets/img/fullsize/gallery_01_01.jpg" alt="WRX STI">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>WRX STI</span></div>
-                                <div class="project-name"><span>Project Boost</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/gallery_01_06.jpg"><img class="img-fluid" src="assets/img/fullsize/gallery_01_06.jpg" alt="WRX STI">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>WRX STI</span></div>
-                                <div class="project-name"><span>Project Boost</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/gallery_01_07.jpg"><img class="img-fluid" src="assets/img/fullsize/gallery_01_07.jpg" alt="WRX STI">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>WRX STI</span></div>
-                                <div class="project-name"><span>Project Boost</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/gallery_01_09.jpg"><img class="img-fluid" src="assets/img/fullsize/gallery_01_09.jpg" alt="WRX STI">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>WRX STI</span></div>
-                                <div class="project-name"><span>Project Boost</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="assets/img/fullsize/interior360_01_00.jpg"><img class="img-fluid" src="assets/img/fullsize/interior360_01_00.jpg" alt="WRX STI">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>WRX STI</span></div>
-                                <div class="project-name"><span>Project Boost</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-            </div>
-        </div>
-    </section>
-    <section class="text-subaru-blue bg-dark">
+    <section class="bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-white">Featured Members</h2>
-                        <hr class="my-4 subaru-blue">
+                        <h2 class="section-heading text-dark">Featured Members</h2>
+                        <hr class="my-4">
                     </div>
                 </div>
                 <div class="card-group" data-card-section></div>
             </div>
-        <div class="container text-center">
-            <h2 class="mb-4 text-white">Come Drive!</h2><a class="btn btn-light btn-xl sr-button" role="button" data-aos="zoom-in" data-aos-duration="400" data-aos-once="true" href="#">Join Now!</a>
-        </div>
     </section>
-    <section id="contact">
+    <section id="contact" class="bg-secondary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 text-center mx-auto">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <h2 class="section-heading text-white">Partners</h2>
                     <hr class="my-4">
-                    <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <ul class="list partner-list">
+                        <li class="partner-item">
+                            <img src="https://pluspng.com/img-png/airbnb-logo-png-open-2000.png" alt="Airbnb Logo PNG"/>
+                        </li>
+                        <li class="partner-item">
+                            <img src="https://pluspng.com/img-png/airbnb-logo-png-open-2000.png" alt="Airbnb Logo PNG"/>
+                        </li>
+                        <li class="partner-item">
+                            <img src="https://pluspng.com/img-png/airbnb-logo-png-open-2000.png" alt="Airbnb Logo PNG"/>
+                        </li>
+                        <li class="partner-item">
+                            <img src="https://pluspng.com/img-png/airbnb-logo-png-open-2000.png" alt="Airbnb Logo PNG"/>
+                        </li>
+                        <li class="partner-item">
+                            <img src="https://pluspng.com/img-png/airbnb-logo-png-open-2000.png" alt="Airbnb Logo PNG"/>
+                        </li>
+                    </ul>
                 </div>
             </div>
+            <div class="row"></div>
+        </div>
+    </section>
+    <footer class="bg-light">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-4 text-center ms-auto"><i class="fa fa-phone fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-once="true"></i>
-                    <p>123-456-6789</p>
+                <div class="col-lg-4" style="width: 200px">
+                    <img src="assets/img/logo/cc.logo.black.svg" alt="Creative commons logo">
                 </div>
-                <div class="col-lg-4 text-center me-auto"><i class="fa fa-envelope-o fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
-                    <p><a href="mailto:your-email@your-domain.com">email@example.com</a></p>
+                <div class="col-lg-4 text-align-left" style="padding-top: 10px; font-family: Lato;">
+                    <p style="margin: 0;">2022 Creative Commons Nairobi, Kenya.</p>
+                    <p style="margin: 0;">Some rights reverserd.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
     <script src="assets/bootstrap/js/app.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
