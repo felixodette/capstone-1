@@ -217,3 +217,54 @@ footer {
   padding-top: 10px;
   font-family: Lato, Roboto, sans-serif;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  #socialSection,
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-join {
+    display: none;
+  }
+
+  .card {
+    row-gap: 45px;
+  }
+
+  .card-width {
+    width: 470px;
+  }
+
+  #card-img {
+    width: 40%;
+    height: auto;
+  }
+
+  #footer-container {
+    width: 500px;
+  }
+
+  #row-footer {
+    transform: scale(0.7);
+  }
+
+  #footer-text {
+    width: 300px;
+  }
+
+  #cc-column {
+    transform: scale(0.2);
+  }
+
+  #drives {
+    gap: 12px;
+  }
+}
