@@ -203,3 +203,17 @@ footer {
   padding-top: 10px;
   font-family: Lato, Roboto, sans-serif;
 }
+
+#cc-commons {
+  width: 200px;
+}
+
+#about-footer-text {
+  padding-top: 10px;
+  font-family: Lato, Roboto, sans-serif;
+}
+
+#about-footer-text p,
+footer-text p {
+  margin: 0;
+}
