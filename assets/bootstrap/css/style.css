@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@500&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+p {
+  font-family: Lato, Roboto, sans-serif;
+}
+
+nav img {
+  top: -100px;
+  width: 150px;
+}
+
+h1 {
+  font-family: Cocogoose, Roboto, sans-serif;
+}
+
+.subaru-blue {
+  background-color: #0e4bef;
+}
+
+.text-subaru-blue {
+  color: #0e4bef;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.header-section {
+  background-image: url('../../img/header.jpg');
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.5);
+}
+
+.header-transparent {
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  background-image: url("../../img/header.jpg");
+}
+
+.text-clip {
+  background-image: url('../../img/header.jpg');
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#card-img {
+  float: left;
+  height: 190px;
+  margin-right: 12px;
+}
+
+#card-rows {
+  margin-bottom: 12px;
+}
+
+#wheels-event {
+  text-align: center;
+  height: 245px;
+  gap: 12px;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(14, 75, 239, 0.8)), url("../../img/thumbnails/gallery_01_11_thumb.jpg") no-repeat;
+  background-size: cover;
+}
+
+#charity-run {
+  height: 245px;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(14, 75, 239, 0.8)), url("../../img/thumbnails/gallery_01_10_thumb.jpg") no-repeat;
+  background-size: cover;
+}
+
+#info-box {
+  color: rgb(21, 15, 15);
+  background: #fff;
+  box-shadow: 1px 0;
+  font-size: 12.4px;
+  text-align: center;
+  border-style: none;
+}
+
+#contact-statement {
+  border-width: 0;
+}
+
+#cc {
+  width: 250px;
+}
+
+#cc1 {
+  width: 200px;
+}
+
+#copyright {
+  width: 660px;
+}
+
+#footer-text p,
+#about-footer-text p {
+  margin: 0;
+}
+
+#confidence-section p,
+.text-location {
+  font-size: 10px;
+  font-family: Lato, Roboto, sans-serif;
+}
+
+#confidence-section {
+  gap: 2px;
+}
+
+.cg-font {
+  font-family: Cocogoose, Roboto, sans-serif;
+  font-weight: 400;
+}
+
+footer img {
+  padding-top: 10px;
+  height: 50px;
+}
+
+.partner-item img {
+  width: 5rem;
+  margin: 0 2rem 3rem 2rem;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100);
+  opacity: 0.7;
+}
+
+#confidence-section img {
+  height: 80px;
+}
+
+.card-background {
+  background: rgba(0 0 0 / 0.2);
+}
+
+#mainNav {
+  padding-top: 40px;
+}
+
+.btn-join {
+  border: 4px solid #ec5242;
+  border-radius: 2px;
+  height: 42px;
+}
+
+#logout {
+  padding-right: 20px;
+}
+
+footer {
+  height: 100px;
+  align-content: start;
+}
+
+.partner-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.about-media {
+  display: inline-flex;
+  opacity: 0.5;
+  width: 30rem;
+}
+
+#drives {
+  display: inline-flex;
+  justify-content: center;
+}
+
+#socialSection {
+  background: black;
+  z-index: 999;
+}
+
+#about-info {
+  background: rgba(255 255 255 / 40%);
+  padding: 10px 5px 10px 5px;
+  border-radius: 8px;
+}
+
+.parallax {
+  background-image: url("../../img/header.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  background: #d3d3d3;
+}
+
+#footer-text {
+  padding-top: 10px;
+  font-family: Lato, Roboto, sans-serif;
+}
+
+#cc-commons {
+  width: 200px;
+}
+
+#about-footer-text {
+  padding-top: 10px;
+  font-family: Lato, Roboto, sans-serif;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  #socialSection,
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-join {
+    display: none;
+  }
+
+  .card {
+    row-gap: 45px;
+  }
+
+  .card-width {
+    width: 470px;
+  }
+
+  #card-img {
+    width: 40%;
+    height: auto;
+  }
+
+  #footer-container {
+    width: 500px;
+  }
+
+  #row-footer {
+    transform: scale(0.7);
+  }
+
+  #footer-text {
+    width: 300px;
+  }
+
+  #cc-column {
+    transform: scale(0.2);
+  }
+
+  #drives {
+    gap: 12px;
+  }
+}

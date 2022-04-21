@@ -1,0 +1,17 @@
+.social-icons {
+  height: 20px;
+  color: white;
+  top: 0;
+  font-family: Lato, Roboto, sans-serif;
+}
+
+.social-icons i {
+  font-size: 16px;
+  display: inline-block;
+  color: #757980;
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
